@@ -1,2 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --bg-primary: hsl(0, 0%, 8%);
+    --bg-secondary: hsl(0, 0%, 12%);
+    --bg-tertiary:hsl(0, 0%, 20%);
+    --color-accent: hsl(75, 94%, 57%);
+    --color-text: hsl(0, 0%, 100%);
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Mobile First approach */
+@media screen and (max-width: 375px) {
+    
+}
